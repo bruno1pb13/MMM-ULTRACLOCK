@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: ledsled;
+    src: url(fonts/ledsledstraight.ttf);
+}
+
+@font-face {
+    font-family: LediZSt;
+    src: url(fonts/LediZSt.ttf);
+}
+
+
+/* 
+.clock {
+    color: white;
+    font-family: "ledsled", sans-serif;
+    font-size: 5em;
+    background-color: red;
+    display: flex;
+    width: 4em;
+    justify-content: space-between;
+} */
+
+.ultraClock{
+
+    height: auto;
+    line-height: 1;
+}
+
+.ledNumber{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ultraClock .clock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) .3fr repeat(2, 1fr) .3fr repeat(2, 1fr);    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: "ledsled", sans-serif;
+    font-size: 4em;
+    width: 5em;
+}
+
+.ultraClock .date{
+    padding: .3em .5em;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.div5 {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.div6 {
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.div7 {
+    grid-area: 1 / 7 / 2 / 8;
+}
+
+.div8 {
+    grid-area: 1 / 8 / 2 / 9;
+}
